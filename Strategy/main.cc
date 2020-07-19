@@ -12,7 +12,7 @@ class IStrategy
 public:
     /**
      * @function add
-     * @abstract excute the algorithm/strategy 
+     * @abstract execute the algorithm/strategy 
     */
     virtual uint32_t add(uint32_t a, uint32_t b) = 0; 
 };
